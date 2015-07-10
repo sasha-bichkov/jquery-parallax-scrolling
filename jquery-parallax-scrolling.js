@@ -232,7 +232,7 @@
 
 	/**
 	 * Stop point when motion was scrolling horizontal
-	 * returns {number}
+	 * @returns {number}
 	 */
 	Parallax.prototype._getNextLeftPoint = function(nextPos) {
 		return nextPos - BEFORE_BLOCK;
@@ -241,7 +241,7 @@
 	/**
 	 * Stop point when motion was scrolling vertical
 	 * @param {number} nextPos - The pos of next slide.
-	 * returns {number}
+	 * @returns {number}
 	 */
 	Parallax.prototype._getNextTopPoint = function(nextPos) {
 		return nextPos - coords[current] - BEFORE_BLOCK;
