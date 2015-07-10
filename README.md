@@ -49,7 +49,7 @@ I recommend you to set it option on [0, 1], but you can play with it and set oth
 * IE 11.0 (doesn't work)
 * Firefox 38.0
 
-### _Devices
+### _Devices_
 * IPad Air (unfortunately, slides are blur when scrolling)
 
 ## License
