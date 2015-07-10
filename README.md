@@ -19,7 +19,7 @@ In your stylesheets file
 
 In your javascript file
 
-	$('sliders').parallax();
+	$('.sliders').parallax();
 
 ## Options
 	
