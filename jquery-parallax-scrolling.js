@@ -251,7 +251,7 @@
 	 * Function for get stop point. Stop point is a coordinate which
 	 * will set for slide.
 	 * @param {nextPos}
-	 * retruns {number}
+	 * @returns {number}
 	 */
 	Parallax.prototype._getStopPoint = function(nextPos) {
 		if (motion === 'vertical') {
