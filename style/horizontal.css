@@ -1,0 +1,63 @@
+@import 'general.css';
+
+/*========== WRAPPER ==========*/
+
+.wrapper   { height: 100%; }
+
+
+/*========== SLIDERS ==========*/
+
+.slider {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	box-sizing: border-box; 
+	z-index: 1;
+}
+
+.slider__inner {
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 700px;
+}
+
+.slider__1 { 
+	background: url('../img/slide-1.jpg') no-repeat; 
+	background-size: cover;
+	z-index: 2;
+}
+
+.slider__2 {
+	left: 1265px;
+	background: url('../img/slide-2.jpg') no-repeat;  
+	background-size: cover;
+	z-index: 3;
+}
+
+.slider__3 {
+	left: 2530px;
+	background: url('../img/slide-3.jpg') no-repeat;  
+	background-size: cover;
+	z-index: 4;
+}
+
+
+/*========== ICON ==========*/
+
+.icon {
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	cursor: pointer;
+	background: url('../social.png');
+}
+
+.icon__googleplus { background-position: -169px 162px; }
+.icon__facebook   { background-position: -226px 161px; }
+.icon__twitter    { background-position: -341px 162px; }
+
+.icon__googleplus:hover { background-position: -169px 87px; }
+.icon__facebook:hover   { background-position: -226px 87px; }
+.icon__twitter:hover    { background-position: -341px 87px; }

@@ -1,0 +1,31 @@
+@import 'normalize.css';
+
+html, body { height: 100%; }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 60pt;
+}
+
+h2 {
+	font-size: 50pt;
+	font-weight: 600;
+}
+
+p {
+	font-size: 20pt;
+	text-align: justify;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
