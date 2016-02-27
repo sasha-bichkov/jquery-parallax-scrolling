@@ -1,8 +1,8 @@
 # JQuery-parallax-scrolling
 
 **ATTENTION!!** The plugin under development!! And you can help me with it.
-Check work jquery-parallax-scrolling and report me if you find a bug.
-I need know about browser and device on which you was testing.
+Check it out and report me if you find a bug.
+I need to know browser and device that you're using.
 
 ## Usage
 In your index.html
@@ -30,16 +30,14 @@ In your javascript file
 	});
 
 ### _children_
-By default it has set as `null` then parallaxing was a children for `element`.
-You can set parallax not at all childrens, but in some elements. As example, 
-it would be `.odd_slider` then not odd elements are no parallaxing.
+By default it's set to `null`.
 
 ### _motion_
-It has `vertical` by default and can be set as `horizontal`. You must write CSS
-in order to work with `horisontal` value. You can see `horizontal.css` for example.
+It's `vertical` by default and can be set as `horizontal`. You should use CSS
+to work with `horisontal` value. You can see `horizontal.css` for example.
 
 ### _speed_ 
-I recommend you to set it option on [0, 1], but you can play with it and set other number.
+I recommend you to set the option to [0, 1], but you can play with it and set others number.
 
 ## Tests
 
